@@ -52,4 +52,4 @@ class LatentSemanticAnalysis():
                     n_most_similar_indexes[i1], n_most_similar_indexes[i2] = n_most_similar_indexes[i2], n_most_similar_indexes[i1]
                     largest = score
 
-        return n_most_similar_indexes[:10], n_most_similar_scores[:10]
+        return n_most_similar_indexes[:n_most_similar], n_most_similar_scores[:n_most_similar]
